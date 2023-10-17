@@ -1,0 +1,48 @@
+/* Reset some default margin and padding for the whole page */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the content vertically and horizontally */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Background color for the page */
+}
+
+#Game {
+    text-align: center;
+    background-color: #fff; /* Background color for the game container */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners for the game container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Drop shadow for the game container */
+}
+
+/* Style the h1 elements */
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+/* Style the choice buttons */
+.choiceBtn {
+    background-color: #3498db; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners for the buttons */
+}
+
+.choiceBtn:hover {
+    background-color: #2980b9; /* Button background color on hover */
+}
+
+.choiceBtn:focus {
+    outline: none; /* Remove focus outline on buttons */
+}
